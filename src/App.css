@@ -39,3 +39,15 @@
   margin: 10px auto;
   padding: 20px;
 }
+
+.attractions-page {
+  font-family: 'Homer Simpson Revised', sans-serif;
+}
+
+.lodging-page {
+  font-family: 'Homer Simpson Revised', sans-serif;
+}
+
+.lodging-page h1 {
+  color: #F65132;
+}
