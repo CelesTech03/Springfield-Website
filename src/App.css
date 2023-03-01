@@ -10,7 +10,7 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
-  border-bottom: 2px solid #FFDB58;
+  border-bottom: 1px solid #8B8000;
   background-color: lightyellow;
 }
 
@@ -35,19 +35,38 @@
   color: #8B8000;
 }
 
-.content {
-  margin: 10px auto;
+/* .content {
+  margin: 5px;
   padding: 20px;
-}
+} */
 
-.attractions-page {
-  font-family: 'Homer Simpson Revised', sans-serif;
+.header {
+  text-align: center;
 }
 
 .lodging-page {
-  font-family: 'Homer Simpson Revised', sans-serif;
+  background-color: lightyellow;
 }
 
 .lodging-page h1 {
-  color: #F65132;
+  color: green;
+}
+
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.place {
+  flex: 0 1 24%;
+  padding: 20px;
+}
+
+img {
+  border-radius: 5px;
+  height: 400px;
+  width: 500px;
+  object-fit: cover;
+  margin: 20px 0px;
 }
