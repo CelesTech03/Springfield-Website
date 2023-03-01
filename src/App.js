@@ -1,8 +1,8 @@
 import "./App.css";
-import Restaurants from "./components/Restaurants";
-import Homepage from "./components/Homepage";
-import Attractions from "./components/Attractions";
-import Lodging from "./components/Lodging";
+import Restaurants from "./pages/Restaurants";
+import Homepage from "./pages/Homepage";
+import Attractions from "./pages/Attractions";
+import Lodging from "./pages/Lodging";
 import Navbar from "./components/Navbar";
 import { Route, Routes } from "react-router-dom";
 
