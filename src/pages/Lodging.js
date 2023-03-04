@@ -3,10 +3,13 @@ import BurnsManor from "../assets/Burnsmanor.png";
 import KrustyMansion from "../assets/Krusty-Mansion.png";
 import FlandersHouse from "../assets/Flandersjunksale.png";
 import Place from "../components/Place";
+import Navbar from "../components/Navbar";
 
 function Lodging() {
   return (
-    <div className="lodging-page content">
+    <div className="lodging-page">
+      <Navbar />
+
       <div className="header">
         <h1>Places to Stay</h1>
       </div>
@@ -33,7 +36,6 @@ function Lodging() {
           description="Krusty's Mansion is the mansion that Krusty the Clown lives in."
         />
       </div>
-      
     </div>
   );
 }
