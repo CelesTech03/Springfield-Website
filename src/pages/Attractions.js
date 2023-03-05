@@ -5,11 +5,21 @@ import Navbar from "../components/Navbar";
 
 function Attractions() {
   return (
-    <div className="attractions-page content">
+    <div className="attractions-page">
       <Navbar />
       <div className="header">
         <h1>Tourist Attractions</h1>
       </div>
+
+      <p className="attractions-information">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ea
+        repellendus id commodi doloremque, vitae velit sunt facilis inventore
+        aspernatur eveniet expedita quaerat consequuntur non incidunt adipisci
+        dolores facere officiis! Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Unde ea repellendus id commodi doloremque, vitae velit
+        sunt facilis inventore aspernatur eveniet expedita quaerat consequuntur
+        non incidunt adipisci dolores facere officiis!
+      </p>
 
       <div className="attractions">
         <div className="attraction">
@@ -56,6 +66,42 @@ function Attractions() {
             incidunt adipisci dolores facere officiis!
           </p>
         </div>
+
+        <div className="attraction">
+          <h2>Gay Neighborhood</h2>
+          <img
+            className="attraction-images"
+            src={GayNeighborhood}
+            alt="Gay Neighborhood"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ea
+            repellendus id commodi doloremque, vitae velit sunt facilis
+            inventore aspernatur eveniet expedita quaerat consequuntur non
+            incidunt adipisci dolores facere officiis!
+          </p>
+        </div>
+
+        <div className="attraction">
+          <h2>Gay Neighborhood</h2>
+          <img
+            className="attraction-images"
+            src={GayNeighborhood}
+            alt="Gay Neighborhood"
+          />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde ea
+            repellendus id commodi doloremque, vitae velit sunt facilis
+            inventore aspernatur eveniet expedita quaerat consequuntur non
+            incidunt adipisci dolores facere officiis!
+          </p>
+        </div>
+      </div>
+
+      <div className="attractions-btn-container">
+        <button type="text" className="attractions-btn">
+          More Attractions
+        </button>
       </div>
     </div>
   );
