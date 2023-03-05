@@ -1,12 +1,27 @@
+import { Link } from "react-router-dom"
+
 const Navbar = () => {
     return (
         <nav className="navbar">
-            <h1>Welcome to Springfield</h1>
+            <div>
+                <Link to="/">
+                    <h1>Welcome to Springfield</h1>
+                </Link>
+            </div>
+
             <div className="links">
-                <a href="/">Homepage</a>
-                <a href="/restaurants">Restaurants</a>
-                <a href="/attractions">Attractions</a>
-                <a href="/lodging">Lodging</a>
+                <Link to="/">
+                    <h3>Homepage</h3>
+                </Link>
+                <Link to="/restaurants">
+                    <h3>Restaurants</h3>
+                </Link>
+                <Link to="/attractions">
+                    <h3>Attractions</h3>
+                </Link>
+                <Link to="/lodging">
+                    <h3>Lodging</h3>
+                </Link>
             </div>
         </nav>
     )
