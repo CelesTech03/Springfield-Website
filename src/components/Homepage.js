@@ -52,16 +52,6 @@ const Homepage = () => {
           />
         </div>
       </div>
-
-      {/* <div className='homepage-body' id="body-section">
-        body section here
-        <div>
-          Section 1
-          skdgfkjsdfgsdkjfghlkjsd
-          dfgsjdkfhgkjshdfkjghs
-          dfjgksdkjfhgksjdflgjsdfjsdlfj
-        </div>
-      </div> */}
     </div>
   )
 }

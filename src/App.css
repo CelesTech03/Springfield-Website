@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   margin: 0 auto;
-  border-bottom: 2px solid #FFDB58;
+  border-bottom: 1px solid #8B8000;
   background-color: lightyellow;
 }
 
@@ -100,4 +100,69 @@ button:hover {
 .card-container {
   display: flex;
   gap: 1rem;
+}
+
+h2 {
+  color: #8B8000;
+}
+
+.header {
+  margin: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  color: green;
+  font-family: 'Homer Simpson Revised', sans-serif;
+}
+
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.place {
+  flex: 0 1 24%;
+  padding: 10px;
+}
+
+.lodging-images {
+    border-radius: 5px;
+    height: 400px;
+    width: 500px;
+    object-fit: cover;
+    margin: 20px 0px;
+}
+
+.attractions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+}
+
+.attraction-images {
+  border-radius: 5px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.attraction {
+  border: 2px solid #8B8000;
+  border-radius: 4px;
+  padding: .5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .attractions {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .attractions {
+    grid-template-columns: 1fr;
+  }
 }
