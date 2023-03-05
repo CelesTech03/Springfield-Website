@@ -6,7 +6,6 @@ import Navbar from "../components/Navbar";
 function Attractions() {
   return (
     <div className="attractions-page content">
-      <Navbar />
       <div className="header">
         <h1>Tourist Attractions</h1>
       </div>
