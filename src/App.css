@@ -42,6 +42,7 @@
 img {
   width: 100%;
   border-radius: 20px;
+  height: auto;
 }
 
 .homepage-header {
@@ -79,11 +80,18 @@ button:hover {
 }
 
 .card {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
   border-radius: 25px;
-  padding: 1rem 2rem;
+  padding: 1rem 1rem;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card:hover {
+  cursor: pointer;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -100,6 +108,8 @@ button:hover {
 .card-container {
   display: flex;
   gap: 1rem;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 h2 {
@@ -182,4 +192,14 @@ h1 {
   .attractions {
     grid-template-columns: 1fr;
   }
+}
+
+.link-card {
+  text-decoration: none;
+  color: #bc0000;
+  font-weight: bold;
+}
+
+.link-card:hover {
+  color: #9b0000;
 }
