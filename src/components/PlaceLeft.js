@@ -1,6 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
-function PlaceLeft({ name, image, description }) {
+function PlaceLeft({ name, image, description, url }) {
   return (
     <div className="place">
 
@@ -9,8 +10,9 @@ function PlaceLeft({ name, image, description }) {
       <div class="lodging-content">
       <h2>{name}</h2>
       <p>{description}</p>
+      <Link to={url} target="_blank">
       <button type="text">
-        <h2>Book Now</h2></button>
+        <h2>Book Now</h2></button></Link>
       </div>
       </div>
 

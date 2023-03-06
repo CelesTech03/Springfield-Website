@@ -8,7 +8,6 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  margin: 0 auto;
   border-bottom: 1px solid #8B8000;
   background-color: lightyellow;
   height: 70px;
@@ -41,7 +40,7 @@
 }
 
 .navbar a:hover {
-  color: #8B8000;
+  color: #DB4914;
 }
 
 img {
@@ -118,7 +117,6 @@ button:hover {
 }
 
 .header {
-  margin: 20px 0;
   text-align: center;
 }
 
@@ -127,19 +125,12 @@ h1 {
   font-family: 'Homer Simpson Revised', sans-serif;
 }
 
-.lodging-page {
-  background-color: lightgoldenrodyellow;
-}
-
-.places {
-  /* border: 3px outset green; */
-}
-
 .lodging-container {
   display: flex;
   flex-direction: row;
   text-align: center;
   align-items: center;
+  border: 1px solid #8B8000;
 }
 
 .lodging-content {
@@ -154,19 +145,19 @@ h1 {
   border: 5px inset green;
   height: 400px;
   width: 500px;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .attractions-information {
   text-align: center;
+  margin: 25px 0;
 }
 
 .attractions {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-auto-rows: auto;
   grid-gap: 1rem;
-  margin-top: 30px;
 }
 
 .attraction-images {
@@ -177,7 +168,7 @@ h1 {
 }
 
 .attraction {
-  border: 2px solid #8B8000;
+  border: 2px solid green;
   border-radius: 15px;
   padding: .5rem;
 }
