@@ -1,0 +1,35 @@
+{
+  "files": {
+    "main.css": "/Springfield-Website/static/css/main.6217e7dd.css",
+    "main.js": "/Springfield-Website/static/js/main.613ce447.js",
+    "static/js/787.3bb77aae.chunk.js": "/Springfield-Website/static/js/787.3bb77aae.chunk.js",
+    "static/media/springfieldMuseum.png": "/Springfield-Website/static/media/springfieldMuseum.080c92681e093159ee7f.png",
+    "static/media/background.jpg": "/Springfield-Website/static/media/background.76e2cd5371fa55dbd041.jpg",
+    "static/media/close-up.jpg": "/Springfield-Website/static/media/close-up.d6468d84cd0374543e65.jpg",
+    "static/media/springfieldPlanetarium.png": "/Springfield-Website/static/media/springfieldPlanetarium.634d2bc49fdf71751ed9.png",
+    "static/media/lodging.jpg": "/Springfield-Website/static/media/lodging.30d5ce46f04024f486b8.jpg",
+    "static/media/springfieldNuclear.png": "/Springfield-Website/static/media/springfieldNuclear.1c8eda9afe079c52d7cf.png",
+    "static/media/Insidethsp.jpg": "/Springfield-Website/static/media/Insidethsp.91bab444155aad02818f.jpg",
+    "static/media/kwikMart.png": "/Springfield-Website/static/media/kwikMart.4ea85bcfea4115678b0a.png",
+    "static/media/Flandersjunksale.png": "/Springfield-Website/static/media/Flandersjunksale.d66b660a3e5d7c66c181.png",
+    "static/media/krusty.jpg": "/Springfield-Website/static/media/krusty.c1a53709379217f49dbf.jpg",
+    "static/media/springfieldInn.png": "/Springfield-Website/static/media/springfieldInn.d254a009f297bf70558f.png",
+    "static/media/742-Evergreen.png": "/Springfield-Website/static/media/742-Evergreen.3375cf18f0d67785c065.png",
+    "static/media/barneysApartment.png": "/Springfield-Website/static/media/barneysApartment.63d45eb9b86a6bb6ceaa.png",
+    "static/media/Sleep-Eazy.png": "/Springfield-Website/static/media/Sleep-Eazy.c5078ecec3d312767cd8.png",
+    "static/media/dutchman.jpg": "/Springfield-Website/static/media/dutchman.f9e0d6080f31d012e712.jpg",
+    "static/media/donut.jpg": "/Springfield-Website/static/media/donut.b9dd9ebda14ecc246d1e.jpg",
+    "static/media/gayNeighborhood.png": "/Springfield-Website/static/media/gayNeighborhood.cd8cb2e47eebab54cab0.png",
+    "static/media/sumo.jpg": "/Springfield-Website/static/media/sumo.dd0ed64bff55673cc242.jpg",
+    "static/media/moe-tav.jpg": "/Springfield-Website/static/media/moe-tav.e62e30529659045b7ea2.jpg",
+    "static/media/moesTavern.jpg": "/Springfield-Website/static/media/moesTavern.163493a59e486ced79c3.jpg",
+    "index.html": "/Springfield-Website/index.html",
+    "main.6217e7dd.css.map": "/Springfield-Website/static/css/main.6217e7dd.css.map",
+    "main.613ce447.js.map": "/Springfield-Website/static/js/main.613ce447.js.map",
+    "787.3bb77aae.chunk.js.map": "/Springfield-Website/static/js/787.3bb77aae.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6217e7dd.css",
+    "static/js/main.613ce447.js"
+  ]
+}
