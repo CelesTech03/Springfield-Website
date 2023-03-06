@@ -98,8 +98,8 @@ function Attractions() {
       </div>
 
       <div className="attractions-btn-container">
-        <button type="text" className="attractions-btn">
-          More Attractions
+        <button type="text">
+         <h2> More Attractions</h2>
         </button>
       </div>
     </div>
