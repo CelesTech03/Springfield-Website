@@ -2,7 +2,8 @@ import SimpsonsHouse from "../assets/742-Evergreen.png";
 import BurnsManor from "../assets/Burnsmanor.png";
 import KrustyMansion from "../assets/Krusty-Mansion.png";
 import FlandersHouse from "../assets/Flandersjunksale.png";
-import Place from "../components/Place";
+import PlaceLeft from "../components/PlaceLeft";
+import PlaceRight from "../components/PlaceRight";
 import Navbar from "../components/Navbar";
 
 function Lodging() {
@@ -15,22 +16,22 @@ function Lodging() {
       </div>
 
       <div className="places">
-        <Place
+        <PlaceLeft
           name="742 Evergreen Terrace"
           image={SimpsonsHouse}
           description="This is the main location in The Simpsons and the address of the Simpson family's house."
         />
-        <Place
+        <PlaceRight
           name="744 Evergreen Terrace"
           image={FlandersHouse}
           description="744 Evergreen Terrace is the address of the house where the Flanders family live. They live next door, to the left, of the Simpsons, at 742 Evergreen Terrace."
         />
-        <Place
+        <PlaceLeft
           name="Burns Manor"
           image={BurnsManor}
           description="Burns Manor is Mr. Burns' mansion. It used to host the Springfield Nuclear Power Plant Annual Picnic."
         />
-        <Place
+        <PlaceRight
           name="Krusty's Mansion"
           image={KrustyMansion}
           description="Krusty's Mansion is the mansion that Krusty the Clown lives in."
