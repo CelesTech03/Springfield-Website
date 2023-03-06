@@ -20,9 +20,10 @@ const Homepage = () => {
             A Village Full of Fun!
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            One of the most notorious towns in the 21st century fictional universe,
+            Springfield is where you can unleash your survival skills either from 
+            food poisoning or nuclear attack. Come here and you will
+            regret staying here during your vacation!
           </p>
           <div className="button-container">
             <button onClick={handleClickScroll}>
