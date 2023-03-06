@@ -201,3 +201,16 @@ h1 {
 .link-card:hover {
   color: #9b0000;
 }
+
+.restaurant-body {
+  display: flex;
+  margin: 2rem;
+}
+
+.restaurant-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  justify-content: center;
+}
+
